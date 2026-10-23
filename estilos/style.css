@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+root{
+    --font1:var(--font-family: 'Asap Sharp', sans-serif);
+}
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    color: #000000;
+    min-height: 100vh;
+}
+header{
+    background-color: #f60404dc;
+    color: #fff;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #f8f8f8;
+    font-weight: bold;
+}
+a :hover{
+    text-decoration: underline;
+}
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+header p{
+    padding-bottom: 50px;
+}
+section.normal{
+    background-color: #f8f8f8;
+    color: #000000;
+}
+section.imagem{
+    background-color: #170000;
+    color: #f8f8f8;
+    box-shadow: inset 6px 6px 13px 0px rgba(145, 45, 45, 0.75);
+    background-attachment: fixed;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.imagem >p{
+    width: 50%;
+    color: #d9d2d2;
+    background-color: #f8f1f147;
+}
+section >p{
+    padding-bottom: 2em;
+}
+section#imagem1{
+    background-image: url('../imagens/imagem01.jpg');
+    background-position: right center;
+    background-size: cover;
+    
+}
+section#imagem2{
+    background-image: url('../imagens/imagem02.jpg');
+    background-size: cover;
+    background-position: right center;
+}
+footer{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px ;
+}
